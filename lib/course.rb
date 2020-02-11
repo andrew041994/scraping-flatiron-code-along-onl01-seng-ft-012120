@@ -10,4 +10,9 @@ class Course
       @@all
     end
 
+    def self.reset_all
+      Course.all.reset
+
+    end
+
 end
